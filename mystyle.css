@@ -11,3 +11,7 @@ body{
 .monkey {
     text-align: center;
 }
+
+a {
+    font-size: 20px;
+}
