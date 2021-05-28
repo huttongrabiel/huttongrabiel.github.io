@@ -20,16 +20,20 @@ a {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(75, 108, 200);
+    background-color: white;
 }
 
-ul.NavBar li{
-    float: left;
+.NavBar ul {
+    border: 2px rgb(75, 108, 200);
+}   
+
+ul.NavBar li {
+    float: right;
 }
 
 ul.NavBar li a {
     display: block;
-    color: white;
+    color: rgb(75, 108, 200);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -37,6 +41,12 @@ ul.NavBar li a {
 
 ul.NavBar li a:hover {
     background-color: rgb(66, 68, 204);
+    color: white;
+}
+
+ul.NavBar li:last-child a:hover {
+    background-color: white;
+    color: none;
 }
 
 ul.footer li {
