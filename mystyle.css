@@ -4,7 +4,6 @@ h1 {
 
 body{
     margin: auto;
-    border: 3px solid blue;
     text-align: left;
 }
 
@@ -14,4 +13,51 @@ body{
 
 a {
     font-size: 20px;
+}
+
+.NavBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(75, 108, 200);
+}
+
+ul.NavBar li{
+    float: left;
+}
+
+ul.NavBar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul.NavBar li a:hover {
+    background-color: rgb(66, 68, 204);
+}
+
+ul.footer li {
+    float: left;
+}
+
+.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+ul.footer li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
