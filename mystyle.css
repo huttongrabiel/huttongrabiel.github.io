@@ -81,3 +81,24 @@ ul.footer li a {
     text-align: center;
     font: bold Georgia;
 }
+
+.WebsiteHomePage img{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+.WebsiteHomePage {
+    position: relative;
+    position: relative;
+}
+
+.WebsiteHomePage h1{
+    position: absolute;
+    font: 3vw "Apple Chancery", cursive;
+    top: 17px;
+    left: 50px;
+    right: 50px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
