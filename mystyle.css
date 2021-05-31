@@ -67,10 +67,15 @@ ul.footer li {
 }
 
 ul.footer li a {
-    display: block;
+    display: inline-block;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+}
+
+ul.footer li a img {
+    border: none;
+    border-radius: 50%;
 }
 
 .GetInvolvedPage h2 {
