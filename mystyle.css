@@ -15,6 +15,12 @@ a {
     font-size: 20px;
 }
 
+#HomePageLogo { 
+    position: absolute; 
+    top: 3px; 
+    left: 15px; 
+}
+
 .NavBar {
     list-style-type: none;
     margin: 0;
@@ -43,11 +49,6 @@ ul.NavBar li a {
 ul.NavBar li a:hover {
     background-color: rgb(66, 68, 204);
     color: white;
-}
-
-ul.NavBar li:last-child a:hover {
-    background-color: white;
-    color: none;
 }
 
 ul.footer li {
@@ -95,7 +96,6 @@ ul.footer li a img {
 }
 
 .WebsiteHomePage {
-    position: relative;
     position: relative;
 }
 
