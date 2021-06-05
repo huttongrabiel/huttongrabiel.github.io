@@ -108,3 +108,14 @@ ul.footer li a img {
     color: white;
     text-shadow: 2px 2px 4px #000000;
 }
+
+#OurMissionText h2{
+    text-align: center;
+    font: 3vw Copperplate, fantasy;
+    color:rgb(75, 108, 200);
+}
+
+#OurMissionText p {
+    text-align: center;
+    font: 20px Georiga;
+}
