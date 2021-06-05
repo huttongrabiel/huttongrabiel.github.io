@@ -119,3 +119,26 @@ ul.footer li a img {
     text-align: center;
     font: 20px Georiga;
 }
+
+.GetInvolvedContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.GetInvolvedContainer h2 {
+    font: 3vw Copperplate, fantasy;
+    color: rgb(75, 108, 200);
+}
+
+.AboutPageContainer {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.AboutPageContainer h2 {
+    font: 3vw Copperplate, fantasy;
+    color: rgb(75, 108, 200);
+}
