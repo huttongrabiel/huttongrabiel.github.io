@@ -143,3 +143,12 @@ ul.footer li a img {
     font: 3vw Copperplate, fantasy;
     color: rgb(75, 108, 200);
 }
+
+.CopyrightNotice {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+}
