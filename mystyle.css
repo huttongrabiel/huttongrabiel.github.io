@@ -227,7 +227,7 @@ ul.footer li a img {
 
 .img-1 {
     grid-area: img-1;
-    background-image: url("IMG_1670.jpg");
+    background-image: url("IMG_1670.JPG");
 }
 
 .img-2 {
@@ -237,22 +237,22 @@ ul.footer li a img {
 
 .img-3 {
     grid-area: img-3;
-    background-image: url("IMG_1701.jpg");
+    background-image: url("IMG_1701.JPG");
 }
 
 .img-4 {
     grid-area: img-4;
-    background-image: url("IMG_1702.jpg");
+    background-image: url("IMG_1702.JPG");
 }
 
 .img-5 {
     grid-area: img-5;
-    background-image: url("IMG_1703.jpg");
+    background-image: url("IMG_1703.JPG");
 }
 
 .img-6 {
     grid-area: img-6;
-    background-image: url("IMG_1704.jpg");
+    background-image: url("IMG_1704.JPG");
 }
 
 @media screen and (max-width: 835px) {
