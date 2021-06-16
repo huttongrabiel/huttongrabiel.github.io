@@ -275,3 +275,15 @@ ul.footer li a img {
         'img-6 img-6 img-6';
     }
 }
+
+@media screen and (max-width: 374px) {
+    .image-gallery {
+        grid-template-areas: 
+        'img-1 img-1 img-1'
+        'img-2 img-2 img-2'
+        'img-3 img-3 img-3'
+        'img-4 img-4 img-4'
+        'img-5 img-5 img-5'
+        'img-6 img-6 img-6';
+    }
+}
