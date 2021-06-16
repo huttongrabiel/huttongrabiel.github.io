@@ -276,7 +276,7 @@ ul.footer li a img {
     }
 }
 
-@media screen and (max-width: 374px) {
+@media screen and (max-width: 376px) {
     .image-gallery {
         grid-template-areas: 
         'img-1 img-1 img-1'
