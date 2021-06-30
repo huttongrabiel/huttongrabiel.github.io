@@ -286,4 +286,8 @@ ul.footer li a img {
         'img-5 img-5 img-5'
         'img-6 img-6 img-6';
     }
+    .WebsiteHomePage img {
+        width:376px;
+        height: auto;
+    }
 }
