@@ -312,3 +312,15 @@ ul.footer li a img {
         height: auto;
     }
 }
+
+.TrashWeight {
+    position: absolute;
+    text-align: center;
+    top: 40vh;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    font: 60px Copperplate, fantasy;
+    color: greenyellow;
+    text-shadow: 2px 2px 4px #000000;
+}
