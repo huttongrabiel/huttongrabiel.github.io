@@ -101,12 +101,12 @@ ul.footer li a img {
 
 .WebsiteHomePage h1{
     position: absolute;
-    font: 4vw Copperplate, fantasy;
+    font: 3vw calibri, fantasy;
     top: 17px;
     left: 50px;
     right: 50px;
     color: rgb(75, 108, 200);
-    text-shadow: 2px 2px 4px #000000;
+    text-shadow: 2px 2px 4px #506ead;
 }
 
 #OurMissionText h2{
@@ -139,7 +139,12 @@ ul.footer li a img {
     text-align: center;
 }
 
+.AboutPageContainer .Team {
+    margin-top: 15vw;
+}
+
 .AboutPageContainer h2 {
+    text-align: left;
     font: 3vw Copperplate, fantasy;
     color: rgb(75, 108, 200);
 }
