@@ -147,13 +147,17 @@ ul.footer li a img {
 }
 
 .AboutPageContainer .Team {
-    margin-top: 15vw;
+    margin-top: 8vw;
 }
 
 .AboutPageContainer h2 {
     text-align: left;
     font: 3vw Copperplate, fantasy;
     color: rgb(75, 108, 200);
+}
+
+.AboutPageContainer p {
+    font: 25px Georiga;
 }
 
 .CopyrightNotice {
@@ -335,4 +339,8 @@ ul.footer li a img {
     font: 60px Copperplate, fantasy;
     color: lightblue;
     text-shadow: 2px 2px 4px rgb(75, 108, 200);
+}
+
+.AboutPageContainer .Team .HuttonGrabiel .HuttonImageContainer {
+    margin-right: 100%;
 }
