@@ -341,6 +341,14 @@ ul.footer li a img {
     text-shadow: 2px 2px 4px rgb(75, 108, 200);
 }
 
-.AboutPageContainer .Team .HuttonGrabiel .HuttonImageContainer {
-    margin-right: 100%;
+.AboutPageContainer .Team .HuttonGrabiel .HuttonImage {
+    float: left;
+}
+
+.AboutPageContainer .Team .HuttonGrabiel .HuttonText p{
+    font: 25px Georiga;
+}
+
+.AboutPageContainer .Team .HuttonGrabiel .HuttonText h3 {
+    
 }
