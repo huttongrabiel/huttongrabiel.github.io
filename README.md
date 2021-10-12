@@ -19,3 +19,4 @@ focus on beach restorations.
 a lot of it gets used
 * Fix favicon to be a real PNG
 * Draw/Create my own logo for the group
+* Add some js features
