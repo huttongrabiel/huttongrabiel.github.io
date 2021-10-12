@@ -17,3 +17,5 @@ focus on beach restorations.
       position: fixed (i think this will work)
 * Refactor CSS code because it is messy and I don't think
 a lot of it gets used
+* Fix favicon to be a real PNG
+* Draw/Create my own logo for the group
