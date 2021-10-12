@@ -153,7 +153,7 @@ ul.footer li a img {
 .AboutPageContainer h2 {
     text-align: left;
     font: 3vw Copperplate, fantasy;
-    color: rgb(75, 108, 200);
+    color: #4b6cc8;
 }
 
 .AboutPageContainer p {
@@ -350,5 +350,6 @@ ul.footer li a img {
 }
 
 .AboutPageContainer .Team .HuttonGrabiel .HuttonText h3 {
-    
+    font: 30px Georgia;
+    color:#5e626d;
 }
