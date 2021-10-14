@@ -185,7 +185,7 @@ ul.footer li a img {
 .GalleryContainer2 {
     width: 100%;
     max-width: 120rem;
-    margin-top: 1%;
+    margin: auto;
     padding: 0 1.5rem;
 }
 
@@ -244,12 +244,12 @@ ul.footer li a img {
 
 .img-1 {
     grid-area: img-1;
-    background-image: url("Images/IMG_1670.JPG");
+    background-image: url("PiratesCoveTrash.JPG");
 }
 
 .img-2 {
     grid-area: img-2;
-    background-image: url("PiratesCoveTrash.JPG");
+    background-image: url("Images/IMG_1670.JPG");
 }
 
 .img-3 {
