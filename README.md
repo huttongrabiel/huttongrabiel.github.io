@@ -20,3 +20,5 @@ a lot of it gets used
 * Fix favicon to be a real PNG
 * Draw/Create my own logo for the group
 * Add some js features
+* Fix bug in gallery where if I click on the menu it opens new tab (_blank has to be moved to not include the menu bar)
+* Add favicon to index.html
