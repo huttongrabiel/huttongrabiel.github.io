@@ -237,14 +237,9 @@ ul.footer li a img {
     transition: opacity .5s;
 }
 
-.image-gallery a:hover i,
-.image-gallery a:hover::before{
-    opacity: 1;
-}
-
 .img-1 {
     grid-area: img-1;
-    background-image: url("PiratesCoveTrash.JPG");
+    background-image: url("Images/PiratesCoveTrash.JPG");
 }
 
 .img-2 {
