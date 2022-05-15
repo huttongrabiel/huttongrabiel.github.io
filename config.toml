@@ -43,6 +43,10 @@ theme = "hermit"
     name = "github"
     url = "https://github.com/huttongrabiel"
 
+  [[params.social]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/hutton-grabiel-924856212"
+
 [menu]
 
 
