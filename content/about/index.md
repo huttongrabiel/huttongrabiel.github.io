@@ -12,8 +12,7 @@ interest. However, I'm interested in everything computing related from hardware 
 ## Work
 ![MATRIXX Software](/MATRIXXLogo.png)  
 
-I am currently interning at MATRIXX Software where I've been doing a bit  
-of everything over the past 11 months.  
+I am currently interning at MATRIXX Software where I've been doing a bit of everything over the past 11 months.
 
 So far I've...  
 * Reworked a bunch of DevOps related software  
