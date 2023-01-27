@@ -12,8 +12,8 @@ const error_template = ({ status, message }) => "<!DOCTYPE html>\n<html lang=\"e
 
 let read = null;
 
-set_paths({"base":"/huttongrabiel.github.io","assets":""});
-set_version("1674800781059");
+set_paths({"base":"","assets":""});
+set_version("1674856233692");
 
 let default_protocol = 'https';
 
@@ -50,7 +50,7 @@ export class Server {
 			app_template,
 			app_template_contains_nonce: false,
 			error_template,
-			version: "1674800781059"
+			version: "1674856233692"
 		};
 	}
 
