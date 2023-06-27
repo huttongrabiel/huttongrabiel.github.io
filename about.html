@@ -4,15 +4,15 @@
 		<meta charset="utf-8" />
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width" />
-		<meta http-equiv="content-security-policy" content="">
-		<link href="./_app/immutable/assets/_page-b3b7a38e.css" rel="stylesheet">
-		<link rel="modulepreload" href="./_app/immutable/start-be648a5b.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/index-7f3551f2.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/singletons-c1916556.js">
-		<link rel="modulepreload" href="./_app/immutable/components/layout.svelte-cd8f1078.js">
-		<link rel="modulepreload" href="./_app/immutable/modules/pages/_layout.js-9cbb603b.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/_layout-da46b06b.js">
-		<link rel="modulepreload" href="./_app/immutable/components/pages/about/_page.svelte-0e756c4b.js">
+		
+		<link href="./_app/immutable/assets/3.b3b7a38e.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.f91ab070.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/index.6dba6488.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/singletons.f822ec81.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.3b8fb36b.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.797d64f0.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.6e67e459.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/3.7de0f3c1.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
 		<div style="display: contents">
@@ -30,21 +30,31 @@
 </body>
 
 
-		<script type="module" data-sveltekit-hydrate="1q1dw6l">
-			import { start } from "./_app/immutable/start-be648a5b.js";
+			
+			<script>
+				{
+					__sveltekit_13a2qia = {
+						base: new URL(".", location).pathname.slice(0, -1),
+						env: {}
+					};
 
-			start({
-				env: {},
-				paths: {"base":"","assets":""},
-				target: document.querySelector('[data-sveltekit-hydrate="1q1dw6l"]').parentNode,
-				version: "1675356923525",
-				hydrate: {
-					node_ids: [0, 3],
-					data: [null,null],
-					form: null
+					const element = document.currentScript.parentElement;
+
+					const data = [null,null];
+
+					Promise.all([
+						import("./_app/immutable/entry/start.f91ab070.js"),
+						import("./_app/immutable/entry/app.797d64f0.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element, {
+							node_ids: [0, 3],
+							data,
+							form: null,
+							error: null
+						});
+					});
 				}
-			});
-		</script>
-	</div>
+			</script>
+		</div>
 	</body>
 </html>
