@@ -1,7 +1,8 @@
 html {
     background-color: white;
-    margin-left: 10%;
-    margin-right: 10%;
+    max-width: 60%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 footer {
@@ -44,6 +45,6 @@ footer {
     float: right;
     text-align: center;
     color: black;
-    padding: 10px 10px;
+    padding-top: 10px;
     text-decoration: none;
 }
