@@ -23,6 +23,10 @@ footer {
     text-align: center;
 }
 
+.about-me {
+    padding-top: 5%;
+}
+
 .projects {
     padding-top: 10%;
 }
