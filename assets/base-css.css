@@ -5,11 +5,23 @@ html {
     margin-left: auto;
 }
 
+hr {
+    border: none;
+    border-top: 3px double #333;
+}
+
 footer {
+    padding: 2%;
     position: fixed;
-    text-align: center;
     bottom: 0px;
     width: 100%;
+    text-align: center;
+}
+
+.footer-links {
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
 }
 
 .hutton-grabiel-main {
