@@ -5,9 +5,14 @@ html {
     margin-left: auto;
 }
 
-hr {
+.menu-hr {
     border: none;
     border-top: 3px double #333;
+}
+
+a {
+    text-decoration: none;
+    color: green;
 }
 
 footer {
@@ -16,6 +21,14 @@ footer {
     bottom: 0px;
     width: 100%;
     text-align: center;
+}
+
+.projects {
+    padding-top: 10%;
+}
+
+.projects p {
+    font-style: italic;
 }
 
 .footer-links {
