@@ -9,22 +9,51 @@
         <title>Hutton Grabiel Home</title>
     </head>
 
+    <script>
+        const YOUTUBE_URL = "https://www.youtube.com/watch?v=JDRNaAxryu8";
+    </script>
+
     <body>
         <div class="menu-bar">
             <ul>
                 <li class="hutton-grabiel-main"><a href="index.html">Hutton Grabiel</a></li>
+                <li><a class="wedge-clip" href="">Writing</a></li>
                 <li><a href="src/projects.html">Projects</a></li>
             </ul>
+
+            <script>
+                document.querySelectorAll('.wedge-clip').forEach(link => {
+                    link.href = YOUTUBE_URL;
+                })
+            </script>
         </div>
 
         <hr class="menu-hr">
 
         <div class="about-me">
-            <h2>About</h2>
+            <h2>About Me</h2>
             <p>
-                I'm interested in robotics, programming languages, and operating systems. I currently write software for <a href="https://www.huskyrobotics.me/">Husky Robotics</a>.
+                At the moment I'm a senior studying computer science at the University of Washington - Seattle. For the past year and a half
+                I've also been completing the required courses for medical school (yes it has been brutal thank you for asking), conducting research,
+                and finding time for the rest of life in between.
+            </p>
+
+            <p>
+                Over the past three years I've been involved with Husky Robotics as the software lead, taken a LOT of courses both in computer 
+                science and outside it (chem, physics, biology, etc.).
+            </p>
+
+            <p>
+                For research I work in the Grannan Lab at the University of Washington Medical Center where we are developing models to 
+                understand speech pathways and decode behavior from neural data. There is a lot of cool work being done here involving everything
+                from signal processing to AI/LLMs.
+            </p>
+
+            <p>
+                Lastly, I volunteer in the Emergency Department at Seattle Children's Hospital. I love this work and it makes my whole week better.
             </p>
         </div>
+
     </body>
 
     <footer>
