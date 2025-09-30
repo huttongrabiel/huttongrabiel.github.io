@@ -23,6 +23,12 @@ footer {
     text-align: center;
 }
 
+.strava-preview {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .about-me {
     padding-top: 5%;
 }
